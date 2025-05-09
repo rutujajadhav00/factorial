@@ -13,7 +13,7 @@ namespace FactorialApp
             long factorial = CalculateFactorial(number);
 
             Console.WriteLine("Factorial of " + number + " is: " + factorial);
-            Console.ReadLine(); // Keep the console open
+            Console.ReadLine(); 
         }
 
         static long CalculateFactorial(int n)
